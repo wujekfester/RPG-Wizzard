@@ -7,48 +7,68 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		913E4FFB21F13A1400475B09 /* HistoryTableCellView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 913E4FFA21F13A1400475B09 /* HistoryTableCellView.swift */; };
+		913E4FFF21F15B5E00475B09 /* HistoryTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 913E4FFE21F15B5E00475B09 /* HistoryTableViewController.swift */; };
+		9167A48D21DD0B6100D33413 /* Dice.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9167A48C21DD0B6100D33413 /* Dice.swift */; };
+		9167A48F21DD0C9100D33413 /* RollHistory.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9167A48E21DD0C9100D33413 /* RollHistory.swift */; };
 		917A432221B87AA200FB7F81 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 917A432121B87AA200FB7F81 /* AppDelegate.swift */; };
-		917A432421B87AA200FB7F81 /* FirstViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 917A432321B87AA200FB7F81 /* FirstViewController.swift */; };
-		917A432621B87AA200FB7F81 /* SecondViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 917A432521B87AA200FB7F81 /* SecondViewController.swift */; };
+		917A432421B87AA200FB7F81 /* DicesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 917A432321B87AA200FB7F81 /* DicesViewController.swift */; };
 		917A432921B87AA200FB7F81 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 917A432721B87AA200FB7F81 /* Main.storyboard */; };
 		917A432B21B87AA500FB7F81 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 917A432A21B87AA500FB7F81 /* Assets.xcassets */; };
 		917A432E21B87AA500FB7F81 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 917A432C21B87AA500FB7F81 /* LaunchScreen.storyboard */; };
-		917A433921B87AA500FB7F81 /* RPG_WizzardTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 917A433821B87AA500FB7F81 /* RPG_WizzardTests.swift */; };
-		917A434421B87AA500FB7F81 /* RPG_WizzardUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 917A434321B87AA500FB7F81 /* RPG_WizzardUITests.swift */; };
+		91C91D0C21F535B90077B538 /* LSAnimViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91C91D0B21F535B90077B538 /* LSAnimViewController.swift */; };
+		91C91D0E21F536A40077B538 /* LaunchScreenStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 91C91D0D21F536A40077B538 /* LaunchScreenStoryboard.storyboard */; };
+		91C91D1A21F53B350077B538 /* load2.png in Resources */ = {isa = PBXBuildFile; fileRef = 91C91D1021F53B330077B538 /* load2.png */; };
+		91C91D1B21F53B350077B538 /* load4.png in Resources */ = {isa = PBXBuildFile; fileRef = 91C91D1121F53B330077B538 /* load4.png */; };
+		91C91D1C21F53B350077B538 /* load3.png in Resources */ = {isa = PBXBuildFile; fileRef = 91C91D1221F53B330077B538 /* load3.png */; };
+		91C91D1D21F53B350077B538 /* load8.png in Resources */ = {isa = PBXBuildFile; fileRef = 91C91D1321F53B330077B538 /* load8.png */; };
+		91C91D1E21F53B350077B538 /* load1.png in Resources */ = {isa = PBXBuildFile; fileRef = 91C91D1421F53B330077B538 /* load1.png */; };
+		91C91D1F21F53B350077B538 /* load6.png in Resources */ = {isa = PBXBuildFile; fileRef = 91C91D1521F53B340077B538 /* load6.png */; };
+		91C91D2021F53B350077B538 /* load9.png in Resources */ = {isa = PBXBuildFile; fileRef = 91C91D1621F53B340077B538 /* load9.png */; };
+		91C91D2121F53B350077B538 /* load10.png in Resources */ = {isa = PBXBuildFile; fileRef = 91C91D1721F53B340077B538 /* load10.png */; };
+		91C91D2221F53B350077B538 /* load5.png in Resources */ = {isa = PBXBuildFile; fileRef = 91C91D1821F53B340077B538 /* load5.png */; };
+		91C91D2321F53B350077B538 /* load7.png in Resources */ = {isa = PBXBuildFile; fileRef = 91C91D1921F53B350077B538 /* load7.png */; };
 /* End PBXBuildFile section */
 
-/* Begin PBXContainerItemProxy section */
-		917A433521B87AA500FB7F81 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 917A431621B87AA200FB7F81 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 917A431D21B87AA200FB7F81;
-			remoteInfo = "RPG Wizzard";
+/* Begin PBXCopyFilesBuildPhase section */
+		918851DD21C48A720029D275 /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
 		};
-		917A434021B87AA500FB7F81 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 917A431621B87AA200FB7F81 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 917A431D21B87AA200FB7F81;
-			remoteInfo = "RPG Wizzard";
-		};
-/* End PBXContainerItemProxy section */
+/* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		913E4FFA21F13A1400475B09 /* HistoryTableCellView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HistoryTableCellView.swift; sourceTree = "<group>"; };
+		913E4FFE21F15B5E00475B09 /* HistoryTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HistoryTableViewController.swift; sourceTree = "<group>"; };
+		9167A48C21DD0B6100D33413 /* Dice.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Dice.swift; sourceTree = "<group>"; };
+		9167A48E21DD0C9100D33413 /* RollHistory.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RollHistory.swift; sourceTree = "<group>"; };
 		917A431E21B87AA200FB7F81 /* RPG Wizzard.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "RPG Wizzard.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		917A432121B87AA200FB7F81 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		917A432321B87AA200FB7F81 /* FirstViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirstViewController.swift; sourceTree = "<group>"; };
-		917A432521B87AA200FB7F81 /* SecondViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondViewController.swift; sourceTree = "<group>"; };
+		917A432321B87AA200FB7F81 /* DicesViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DicesViewController.swift; sourceTree = "<group>"; };
 		917A432821B87AA200FB7F81 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		917A432A21B87AA500FB7F81 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		917A432D21B87AA500FB7F81 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		917A432F21B87AA500FB7F81 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		917A433421B87AA500FB7F81 /* RPG WizzardTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "RPG WizzardTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
-		917A433821B87AA500FB7F81 /* RPG_WizzardTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RPG_WizzardTests.swift; sourceTree = "<group>"; };
-		917A433A21B87AA500FB7F81 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		917A433F21B87AA500FB7F81 /* RPG WizzardUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "RPG WizzardUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
-		917A434321B87AA500FB7F81 /* RPG_WizzardUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RPG_WizzardUITests.swift; sourceTree = "<group>"; };
-		917A434521B87AA500FB7F81 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		91C7049A21F76FA700C0E922 /* pl */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = pl; path = pl.lproj/Main.strings; sourceTree = "<group>"; };
+		91C91D0B21F535B90077B538 /* LSAnimViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LSAnimViewController.swift; sourceTree = "<group>"; };
+		91C91D0D21F536A40077B538 /* LaunchScreenStoryboard.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = LaunchScreenStoryboard.storyboard; sourceTree = "<group>"; };
+		91C91D1021F53B330077B538 /* load2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = load2.png; sourceTree = "<group>"; };
+		91C91D1121F53B330077B538 /* load4.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = load4.png; sourceTree = "<group>"; };
+		91C91D1221F53B330077B538 /* load3.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = load3.png; sourceTree = "<group>"; };
+		91C91D1321F53B330077B538 /* load8.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = load8.png; sourceTree = "<group>"; };
+		91C91D1421F53B330077B538 /* load1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = load1.png; sourceTree = "<group>"; };
+		91C91D1521F53B340077B538 /* load6.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = load6.png; sourceTree = "<group>"; };
+		91C91D1621F53B340077B538 /* load9.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = load9.png; sourceTree = "<group>"; };
+		91C91D1721F53B340077B538 /* load10.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = load10.png; sourceTree = "<group>"; };
+		91C91D1821F53B340077B538 /* load5.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = load5.png; sourceTree = "<group>"; };
+		91C91D1921F53B350077B538 /* load7.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = load7.png; sourceTree = "<group>"; };
+		91DFCDF421CC8BBF0038F154 /* pl */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = pl; path = pl.lproj/LaunchScreen.strings; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -59,29 +79,39 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		917A433121B87AA500FB7F81 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		917A433C21B87AA500FB7F81 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		9139570221E2C70A0016F6FA /* Database */ = {
+			isa = PBXGroup;
+			children = (
+				9167A48E21DD0C9100D33413 /* RollHistory.swift */,
+			);
+			path = Database;
+			sourceTree = "<group>";
+		};
+		9139570321E2C7260016F6FA /* Dice */ = {
+			isa = PBXGroup;
+			children = (
+				9167A48C21DD0B6100D33413 /* Dice.swift */,
+			);
+			path = Dice;
+			sourceTree = "<group>";
+		};
+		913E500021F15BB700475B09 /* History Table View */ = {
+			isa = PBXGroup;
+			children = (
+				913E4FFE21F15B5E00475B09 /* HistoryTableViewController.swift */,
+				913E4FFA21F13A1400475B09 /* HistoryTableCellView.swift */,
+			);
+			path = "History Table View";
+			sourceTree = "<group>";
+		};
 		917A431521B87AA200FB7F81 = {
 			isa = PBXGroup;
 			children = (
 				917A432021B87AA200FB7F81 /* RPG Wizzard */,
-				917A433721B87AA500FB7F81 /* RPG WizzardTests */,
-				917A434221B87AA500FB7F81 /* RPG WizzardUITests */,
+				917A432A21B87AA500FB7F81 /* Assets.xcassets */,
 				917A431F21B87AA200FB7F81 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -90,8 +120,6 @@
 			isa = PBXGroup;
 			children = (
 				917A431E21B87AA200FB7F81 /* RPG Wizzard.app */,
-				917A433421B87AA500FB7F81 /* RPG WizzardTests.xctest */,
-				917A433F21B87AA500FB7F81 /* RPG WizzardUITests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -99,33 +127,44 @@
 		917A432021B87AA200FB7F81 /* RPG Wizzard */ = {
 			isa = PBXGroup;
 			children = (
+				91C91D0F21F53B150077B538 /* LaunchScreenImages */,
 				917A432121B87AA200FB7F81 /* AppDelegate.swift */,
-				917A432321B87AA200FB7F81 /* FirstViewController.swift */,
-				917A432521B87AA200FB7F81 /* SecondViewController.swift */,
-				917A432721B87AA200FB7F81 /* Main.storyboard */,
-				917A432A21B87AA500FB7F81 /* Assets.xcassets */,
-				917A432C21B87AA500FB7F81 /* LaunchScreen.storyboard */,
 				917A432F21B87AA500FB7F81 /* Info.plist */,
+				917A432721B87AA200FB7F81 /* Main.storyboard */,
+				917A432C21B87AA500FB7F81 /* LaunchScreen.storyboard */,
+				91C91D0D21F536A40077B538 /* LaunchScreenStoryboard.storyboard */,
+				9139570221E2C70A0016F6FA /* Database */,
+				9139570321E2C7260016F6FA /* Dice */,
+				91A4A5FC21E2AC9800861E74 /* View */,
 			);
 			path = "RPG Wizzard";
 			sourceTree = "<group>";
 		};
-		917A433721B87AA500FB7F81 /* RPG WizzardTests */ = {
+		91A4A5FC21E2AC9800861E74 /* View */ = {
 			isa = PBXGroup;
 			children = (
-				917A433821B87AA500FB7F81 /* RPG_WizzardTests.swift */,
-				917A433A21B87AA500FB7F81 /* Info.plist */,
+				917A432321B87AA200FB7F81 /* DicesViewController.swift */,
+				91C91D0B21F535B90077B538 /* LSAnimViewController.swift */,
+				913E500021F15BB700475B09 /* History Table View */,
 			);
-			path = "RPG WizzardTests";
+			path = View;
 			sourceTree = "<group>";
 		};
-		917A434221B87AA500FB7F81 /* RPG WizzardUITests */ = {
+		91C91D0F21F53B150077B538 /* LaunchScreenImages */ = {
 			isa = PBXGroup;
 			children = (
-				917A434321B87AA500FB7F81 /* RPG_WizzardUITests.swift */,
-				917A434521B87AA500FB7F81 /* Info.plist */,
+				91C91D1421F53B330077B538 /* load1.png */,
+				91C91D1021F53B330077B538 /* load2.png */,
+				91C91D1221F53B330077B538 /* load3.png */,
+				91C91D1121F53B330077B538 /* load4.png */,
+				91C91D1821F53B340077B538 /* load5.png */,
+				91C91D1521F53B340077B538 /* load6.png */,
+				91C91D1921F53B350077B538 /* load7.png */,
+				91C91D1321F53B330077B538 /* load8.png */,
+				91C91D1621F53B340077B538 /* load9.png */,
+				91C91D1721F53B340077B538 /* load10.png */,
 			);
-			path = "RPG WizzardUITests";
+			path = LaunchScreenImages;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -138,6 +177,7 @@
 				917A431A21B87AA200FB7F81 /* Sources */,
 				917A431B21B87AA200FB7F81 /* Frameworks */,
 				917A431C21B87AA200FB7F81 /* Resources */,
+				918851DD21C48A720029D275 /* Embed Frameworks */,
 			);
 			buildRules = (
 			);
@@ -147,42 +187,6 @@
 			productName = "RPG Wizzard";
 			productReference = 917A431E21B87AA200FB7F81 /* RPG Wizzard.app */;
 			productType = "com.apple.product-type.application";
-		};
-		917A433321B87AA500FB7F81 /* RPG WizzardTests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 917A434B21B87AA500FB7F81 /* Build configuration list for PBXNativeTarget "RPG WizzardTests" */;
-			buildPhases = (
-				917A433021B87AA500FB7F81 /* Sources */,
-				917A433121B87AA500FB7F81 /* Frameworks */,
-				917A433221B87AA500FB7F81 /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				917A433621B87AA500FB7F81 /* PBXTargetDependency */,
-			);
-			name = "RPG WizzardTests";
-			productName = "RPG WizzardTests";
-			productReference = 917A433421B87AA500FB7F81 /* RPG WizzardTests.xctest */;
-			productType = "com.apple.product-type.bundle.unit-test";
-		};
-		917A433E21B87AA500FB7F81 /* RPG WizzardUITests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 917A434E21B87AA500FB7F81 /* Build configuration list for PBXNativeTarget "RPG WizzardUITests" */;
-			buildPhases = (
-				917A433B21B87AA500FB7F81 /* Sources */,
-				917A433C21B87AA500FB7F81 /* Frameworks */,
-				917A433D21B87AA500FB7F81 /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				917A434121B87AA500FB7F81 /* PBXTargetDependency */,
-			);
-			name = "RPG WizzardUITests";
-			productName = "RPG WizzardUITests";
-			productReference = 917A433F21B87AA500FB7F81 /* RPG WizzardUITests.xctest */;
-			productType = "com.apple.product-type.bundle.ui-testing";
 		};
 /* End PBXNativeTarget section */
 
@@ -196,14 +200,6 @@
 				TargetAttributes = {
 					917A431D21B87AA200FB7F81 = {
 						CreatedOnToolsVersion = 10.1;
-					};
-					917A433321B87AA500FB7F81 = {
-						CreatedOnToolsVersion = 10.1;
-						TestTargetID = 917A431D21B87AA200FB7F81;
-					};
-					917A433E21B87AA500FB7F81 = {
-						CreatedOnToolsVersion = 10.1;
-						TestTargetID = 917A431D21B87AA200FB7F81;
 					};
 				};
 			};
@@ -221,8 +217,6 @@
 			projectRoot = "";
 			targets = (
 				917A431D21B87AA200FB7F81 /* RPG Wizzard */,
-				917A433321B87AA500FB7F81 /* RPG WizzardTests */,
-				917A433E21B87AA500FB7F81 /* RPG WizzardUITests */,
 			);
 		};
 /* End PBXProject section */
@@ -232,23 +226,20 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				91C91D0E21F536A40077B538 /* LaunchScreenStoryboard.storyboard in Resources */,
+				91C91D1C21F53B350077B538 /* load3.png in Resources */,
+				91C91D2021F53B350077B538 /* load9.png in Resources */,
+				91C91D2321F53B350077B538 /* load7.png in Resources */,
+				91C91D1A21F53B350077B538 /* load2.png in Resources */,
 				917A432E21B87AA500FB7F81 /* LaunchScreen.storyboard in Resources */,
+				91C91D1E21F53B350077B538 /* load1.png in Resources */,
+				91C91D2121F53B350077B538 /* load10.png in Resources */,
+				91C91D1D21F53B350077B538 /* load8.png in Resources */,
 				917A432B21B87AA500FB7F81 /* Assets.xcassets in Resources */,
+				91C91D1B21F53B350077B538 /* load4.png in Resources */,
+				91C91D1F21F53B350077B538 /* load6.png in Resources */,
+				91C91D2221F53B350077B538 /* load5.png in Resources */,
 				917A432921B87AA200FB7F81 /* Main.storyboard in Resources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		917A433221B87AA500FB7F81 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		917A433D21B87AA500FB7F81 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -259,48 +250,24 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				917A432621B87AA200FB7F81 /* SecondViewController.swift in Sources */,
+				91C91D0C21F535B90077B538 /* LSAnimViewController.swift in Sources */,
 				917A432221B87AA200FB7F81 /* AppDelegate.swift in Sources */,
-				917A432421B87AA200FB7F81 /* FirstViewController.swift in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		917A433021B87AA500FB7F81 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				917A433921B87AA500FB7F81 /* RPG_WizzardTests.swift in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		917A433B21B87AA500FB7F81 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				917A434421B87AA500FB7F81 /* RPG_WizzardUITests.swift in Sources */,
+				9167A48D21DD0B6100D33413 /* Dice.swift in Sources */,
+				913E4FFB21F13A1400475B09 /* HistoryTableCellView.swift in Sources */,
+				913E4FFF21F15B5E00475B09 /* HistoryTableViewController.swift in Sources */,
+				917A432421B87AA200FB7F81 /* DicesViewController.swift in Sources */,
+				9167A48F21DD0C9100D33413 /* RollHistory.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
-
-/* Begin PBXTargetDependency section */
-		917A433621B87AA500FB7F81 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = 917A431D21B87AA200FB7F81 /* RPG Wizzard */;
-			targetProxy = 917A433521B87AA500FB7F81 /* PBXContainerItemProxy */;
-		};
-		917A434121B87AA500FB7F81 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = 917A431D21B87AA200FB7F81 /* RPG Wizzard */;
-			targetProxy = 917A434021B87AA500FB7F81 /* PBXContainerItemProxy */;
-		};
-/* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
 		917A432721B87AA200FB7F81 /* Main.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
 				917A432821B87AA200FB7F81 /* Base */,
+				91C7049A21F76FA700C0E922 /* pl */,
 			);
 			name = Main.storyboard;
 			sourceTree = "<group>";
@@ -309,6 +276,7 @@
 			isa = PBXVariantGroup;
 			children = (
 				917A432D21B87AA500FB7F81 /* Base */,
+				91DFCDF421CC8BBF0038F154 /* pl */,
 			);
 			name = LaunchScreen.storyboard;
 			sourceTree = "<group>";
@@ -320,6 +288,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
@@ -381,6 +350,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
@@ -435,6 +405,7 @@
 		917A434921B87AA500FB7F81 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = M5MDJFGAP9;
@@ -453,6 +424,7 @@
 		917A434A21B87AA500FB7F81 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = M5MDJFGAP9;
@@ -468,88 +440,6 @@
 			};
 			name = Release;
 		};
-		917A434C21B87AA500FB7F81 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				BUNDLE_LOADER = "$(TEST_HOST)";
-				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = M5MDJFGAP9;
-				INFOPLIST_FILE = "RPG WizzardTests/Info.plist";
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
-				PRODUCT_BUNDLE_IDENTIFIER = "W-goracej-wodzie-company.RPG-WizzardTests";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 4.2;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/RPG Wizzard.app/RPG Wizzard";
-			};
-			name = Debug;
-		};
-		917A434D21B87AA500FB7F81 /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				BUNDLE_LOADER = "$(TEST_HOST)";
-				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = M5MDJFGAP9;
-				INFOPLIST_FILE = "RPG WizzardTests/Info.plist";
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
-				PRODUCT_BUNDLE_IDENTIFIER = "W-goracej-wodzie-company.RPG-WizzardTests";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 4.2;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/RPG Wizzard.app/RPG Wizzard";
-			};
-			name = Release;
-		};
-		917A434F21B87AA500FB7F81 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = M5MDJFGAP9;
-				INFOPLIST_FILE = "RPG WizzardUITests/Info.plist";
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
-				PRODUCT_BUNDLE_IDENTIFIER = "W-goracej-wodzie-company.RPG-WizzardUITests";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 4.2;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_TARGET_NAME = "RPG Wizzard";
-			};
-			name = Debug;
-		};
-		917A435021B87AA500FB7F81 /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = M5MDJFGAP9;
-				INFOPLIST_FILE = "RPG WizzardUITests/Info.plist";
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
-				PRODUCT_BUNDLE_IDENTIFIER = "W-goracej-wodzie-company.RPG-WizzardUITests";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 4.2;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_TARGET_NAME = "RPG Wizzard";
-			};
-			name = Release;
-		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -560,7 +450,7 @@
 				917A434721B87AA500FB7F81 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
+			defaultConfigurationName = Debug;
 		};
 		917A434821B87AA500FB7F81 /* Build configuration list for PBXNativeTarget "RPG Wizzard" */ = {
 			isa = XCConfigurationList;
@@ -569,25 +459,7 @@
 				917A434A21B87AA500FB7F81 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		917A434B21B87AA500FB7F81 /* Build configuration list for PBXNativeTarget "RPG WizzardTests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				917A434C21B87AA500FB7F81 /* Debug */,
-				917A434D21B87AA500FB7F81 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		917A434E21B87AA500FB7F81 /* Build configuration list for PBXNativeTarget "RPG WizzardUITests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				917A434F21B87AA500FB7F81 /* Debug */,
-				917A435021B87AA500FB7F81 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
+			defaultConfigurationName = Debug;
 		};
 /* End XCConfigurationList section */
 	};
