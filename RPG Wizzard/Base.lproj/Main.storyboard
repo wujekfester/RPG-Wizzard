@@ -301,10 +301,6 @@
                                     </tableViewCell>
                                 </prototypes>
                                 <sections/>
-                                <connections>
-                                    <outlet property="dataSource" destination="bfM-PC-ofQ" id="9xd-Bb-jap"/>
-                                    <outlet property="delegate" destination="bfM-PC-ofQ" id="z2K-F5-Dtm"/>
-                                </connections>
                             </tableView>
                         </subviews>
                         <color key="backgroundColor" red="0.37549585099999999" green="0.50717937950000003" blue="0.63122421500000003" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>

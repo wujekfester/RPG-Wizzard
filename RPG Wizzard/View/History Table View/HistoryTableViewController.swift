@@ -16,6 +16,9 @@ class HistoryTableViewController: UITableViewController{
 
     override func viewDidLoad() {
         super.viewDidLoad()
+        myTableView.reloadData()
+        self.tableView.dataSource = self
+        self.tableView.delegate = self
         self.tableView.register(HistoryTableCellView.self, forCellReuseIdentifier: "cell")
 
 
