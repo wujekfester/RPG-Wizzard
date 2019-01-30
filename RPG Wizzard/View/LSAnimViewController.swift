@@ -32,10 +32,7 @@ class LSAnimViewController: UIViewController {
             UIApplication.shared.keyWindow?.rootViewController = vc
         }
     }
-    // ELO MORDO
-    
-    
-    
+
     func createImageArray() -> [UIImage]{
         var imageArray: [UIImage] = []
         for imageCount in 1..<11{
@@ -53,17 +50,4 @@ class LSAnimViewController: UIViewController {
         imageView.animationRepeatCount = 1
         imageView.startAnimating()
     }
-        // Do any additional setup after loading the view.
-    
-
-    /*
-    // MARK: - Navigation
-
-    // In a storyboard-based application, you will often want to do a little preparation before navigation
-    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
-        // Get the new view controller using segue.destination.
-        // Pass the selected object to the new view controller.
-    }
-    */
-
 }

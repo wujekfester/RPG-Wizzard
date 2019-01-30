@@ -27,8 +27,9 @@ class DicesViewController: UIViewController{
     }
     
     @IBAction func rollDice(_ sender: UIButton){
-        let dice = Dice(dSize: sender.tag)
-        dice.LetsRollDice(amount: Int(dicesCountSlider.value))
+        let dice = Dice(sides: sender.tag, amount: Int(dicesCountSlider.value))
+        dice.RollDice()
+        NewHistory.sI.addToHistory(dice: dice)
         self.displayResult()
     }
     
@@ -42,11 +43,11 @@ class DicesViewController: UIViewController{
     
     
     func displayResult(){
-        let rH = RollHistory.sharedInstance
+        let rollHistory = NewHistory.sI
         if formatSwitch.isOn{
-            resultLabel.text = rH.lastRoll()
+            resultLabel.text = rollHistory.lastRoll()
         }else{
-            resultLabel.text = rH.lastRollSum()
+            resultLabel.text = rollHistory.lastRollSum()
         }
         formatSwitch.isEnabled = true
     }
@@ -71,8 +72,8 @@ class DicesViewController: UIViewController{
                 return
             }
             
-            let dice = Dice(dSize: diceSize)
-            dice.LetsRollDice(amount: amount)
+            let dice = Dice(sides: diceSize, amount: amount)
+            dice.RollDice()
 
             self.displayResult()
         }))

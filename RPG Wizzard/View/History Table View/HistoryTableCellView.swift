@@ -10,5 +10,6 @@ import UIKit
 class HistoryTableCellView: UITableViewCell {
     
     @IBOutlet weak var rollResultLabel: UILabel!
-    
+    @IBOutlet weak var diceInfoLabel: UILabel!
+    @IBOutlet weak var diceImage: UIImageView!
 }

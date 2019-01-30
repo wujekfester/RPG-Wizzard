@@ -9,8 +9,8 @@
 /* Begin PBXBuildFile section */
 		913E4FFB21F13A1400475B09 /* HistoryTableCellView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 913E4FFA21F13A1400475B09 /* HistoryTableCellView.swift */; };
 		913E4FFF21F15B5E00475B09 /* HistoryTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 913E4FFE21F15B5E00475B09 /* HistoryTableViewController.swift */; };
+		91446F2521FFD3F6001B076A /* NewHistory.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91446F2421FFD3F6001B076A /* NewHistory.swift */; };
 		9167A48D21DD0B6100D33413 /* Dice.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9167A48C21DD0B6100D33413 /* Dice.swift */; };
-		9167A48F21DD0C9100D33413 /* RollHistory.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9167A48E21DD0C9100D33413 /* RollHistory.swift */; };
 		917A432221B87AA200FB7F81 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 917A432121B87AA200FB7F81 /* AppDelegate.swift */; };
 		917A432421B87AA200FB7F81 /* DicesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 917A432321B87AA200FB7F81 /* DicesViewController.swift */; };
 		917A432921B87AA200FB7F81 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 917A432721B87AA200FB7F81 /* Main.storyboard */; };
@@ -46,8 +46,8 @@
 /* Begin PBXFileReference section */
 		913E4FFA21F13A1400475B09 /* HistoryTableCellView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HistoryTableCellView.swift; sourceTree = "<group>"; };
 		913E4FFE21F15B5E00475B09 /* HistoryTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HistoryTableViewController.swift; sourceTree = "<group>"; };
+		91446F2421FFD3F6001B076A /* NewHistory.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewHistory.swift; sourceTree = "<group>"; };
 		9167A48C21DD0B6100D33413 /* Dice.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Dice.swift; sourceTree = "<group>"; };
-		9167A48E21DD0C9100D33413 /* RollHistory.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RollHistory.swift; sourceTree = "<group>"; };
 		917A431E21B87AA200FB7F81 /* RPG Wizzard.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "RPG Wizzard.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		917A432121B87AA200FB7F81 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		917A432321B87AA200FB7F81 /* DicesViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DicesViewController.swift; sourceTree = "<group>"; };
@@ -85,7 +85,7 @@
 		9139570221E2C70A0016F6FA /* Database */ = {
 			isa = PBXGroup;
 			children = (
-				9167A48E21DD0C9100D33413 /* RollHistory.swift */,
+				91446F2421FFD3F6001B076A /* NewHistory.swift */,
 			);
 			path = Database;
 			sourceTree = "<group>";
@@ -256,7 +256,7 @@
 				913E4FFB21F13A1400475B09 /* HistoryTableCellView.swift in Sources */,
 				913E4FFF21F15B5E00475B09 /* HistoryTableViewController.swift in Sources */,
 				917A432421B87AA200FB7F81 /* DicesViewController.swift in Sources */,
-				9167A48F21DD0C9100D33413 /* RollHistory.swift in Sources */,
+				91446F2521FFD3F6001B076A /* NewHistory.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -336,7 +336,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
@@ -392,7 +392,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
 				SDKROOT = iphoneos;
@@ -410,6 +410,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = M5MDJFGAP9;
 				INFOPLIST_FILE = "RPG Wizzard/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -417,7 +418,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = "W-goracej-wodzie-company.RPG-Wizzard";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.2;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -429,6 +430,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = M5MDJFGAP9;
 				INFOPLIST_FILE = "RPG Wizzard/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -436,7 +438,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = "W-goracej-wodzie-company.RPG-Wizzard";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.2;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};

@@ -7,22 +7,50 @@
 //
 import UIKit
 class Dice {
-    fileprivate var dSize: Int
-    fileprivate var thisRollResult: [Int] = []
-
-    init(dSize: Int){
-        self.dSize = dSize
-    }
+    fileprivate var sides: Int
+    fileprivate var amount: Int
+    fileprivate var result: [Int] = []
+    fileprivate var sumResult: Int = 0
+    fileprivate var dImage: String
     
-    func LetsRollDice(amount: Int){
-        for _ in 0..<amount {
-            thisRollResult.insert(Int.random(in: 1...dSize), at: 0)
+    fileprivate func resultAdder(){
+        for value in result{
+            sumResult += value
         }
-        self.addToHistory(rollResultArray: thisRollResult)
+    }
+
+    init(sides: Int, amount: Int){
+        self.sides = sides
+        self.amount = amount
+        self.dImage = "d\(sides)"
     }
     
-    fileprivate func addToHistory(rollResultArray: [Int]){
-        let rollHistory = RollHistory.sharedInstance
-        rollHistory.rollArray.insert(rollResultArray, at: 0)
+    func RollDice(){
+        for _ in 0..<self.amount {
+            result.insert(Int.random(in: 1...self.sides), at: 0)
+            resultAdder()
+        }
     }
+    
+    func gSides() -> Int {
+        return self.sides
+    }
+    
+    func gAmount() -> Int {
+        return self.amount
+    }
+    
+    func gResult() -> [Int]{
+        return self.result
+    }
+    
+    func gImage() -> String{
+        return self.dImage
+    }
+    
+    func gSumResult() -> String{
+//        return self.sumResult as! String
+        return "chuj"
+    }
+    
 }
