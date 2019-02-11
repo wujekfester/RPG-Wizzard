@@ -28,7 +28,7 @@ class NewHistory {
     
     func lastRoll() -> String {
         var tempString: String = ""
-        let tempArray = diceList[0].gResult()
+        let tempArray: [Int] = diceList[0].gResult()
         for value in tempArray{
                 tempString += "\(value) "
             }

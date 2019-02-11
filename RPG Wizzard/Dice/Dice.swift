@@ -48,6 +48,17 @@ class Dice {
         return self.dImage
     }
     
+    func gResult() -> String{
+        var tempString: String = ""
+        for result in result{
+            tempString += "\(result) "
+        }
+        // usuwanie ostatniej spacji w stringu
+        tempString.remove(at: tempString.index(before: tempString.endIndex))
+        return tempString
+    
+    }
+    
     func gSumResult() -> String{
 //        return self.sumResult as! String
         return "chuj"

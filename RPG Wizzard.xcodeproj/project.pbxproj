@@ -7,9 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		913E4FFB21F13A1400475B09 /* HistoryTableCellView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 913E4FFA21F13A1400475B09 /* HistoryTableCellView.swift */; };
-		913E4FFF21F15B5E00475B09 /* HistoryTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 913E4FFE21F15B5E00475B09 /* HistoryTableViewController.swift */; };
 		91446F2521FFD3F6001B076A /* NewHistory.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91446F2421FFD3F6001B076A /* NewHistory.swift */; };
+		914743E2221183DA006E56E5 /* NewHistoryTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 914743E1221183DA006E56E5 /* NewHistoryTableViewController.swift */; };
+		914743E42211869A006E56E5 /* NewHistoryTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 914743E32211869A006E56E5 /* NewHistoryTableViewCell.swift */; };
 		9167A48D21DD0B6100D33413 /* Dice.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9167A48C21DD0B6100D33413 /* Dice.swift */; };
 		917A432221B87AA200FB7F81 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 917A432121B87AA200FB7F81 /* AppDelegate.swift */; };
 		917A432421B87AA200FB7F81 /* DicesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 917A432321B87AA200FB7F81 /* DicesViewController.swift */; };
@@ -44,9 +44,9 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
-		913E4FFA21F13A1400475B09 /* HistoryTableCellView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HistoryTableCellView.swift; sourceTree = "<group>"; };
-		913E4FFE21F15B5E00475B09 /* HistoryTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HistoryTableViewController.swift; sourceTree = "<group>"; };
 		91446F2421FFD3F6001B076A /* NewHistory.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewHistory.swift; sourceTree = "<group>"; };
+		914743E1221183DA006E56E5 /* NewHistoryTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewHistoryTableViewController.swift; sourceTree = "<group>"; };
+		914743E32211869A006E56E5 /* NewHistoryTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewHistoryTableViewCell.swift; sourceTree = "<group>"; };
 		9167A48C21DD0B6100D33413 /* Dice.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Dice.swift; sourceTree = "<group>"; };
 		917A431E21B87AA200FB7F81 /* RPG Wizzard.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "RPG Wizzard.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		917A432121B87AA200FB7F81 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -101,8 +101,8 @@
 		913E500021F15BB700475B09 /* History Table View */ = {
 			isa = PBXGroup;
 			children = (
-				913E4FFE21F15B5E00475B09 /* HistoryTableViewController.swift */,
-				913E4FFA21F13A1400475B09 /* HistoryTableCellView.swift */,
+				914743E32211869A006E56E5 /* NewHistoryTableViewCell.swift */,
+				914743E1221183DA006E56E5 /* NewHistoryTableViewController.swift */,
 			);
 			path = "History Table View";
 			sourceTree = "<group>";
@@ -251,10 +251,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				91C91D0C21F535B90077B538 /* LSAnimViewController.swift in Sources */,
+				914743E2221183DA006E56E5 /* NewHistoryTableViewController.swift in Sources */,
+				914743E42211869A006E56E5 /* NewHistoryTableViewCell.swift in Sources */,
 				917A432221B87AA200FB7F81 /* AppDelegate.swift in Sources */,
 				9167A48D21DD0B6100D33413 /* Dice.swift in Sources */,
-				913E4FFB21F13A1400475B09 /* HistoryTableCellView.swift in Sources */,
-				913E4FFF21F15B5E00475B09 /* HistoryTableViewController.swift in Sources */,
 				917A432421B87AA200FB7F81 /* DicesViewController.swift in Sources */,
 				91446F2521FFD3F6001B076A /* NewHistory.swift in Sources */,
 			);
