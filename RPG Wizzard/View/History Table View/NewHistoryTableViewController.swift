@@ -9,7 +9,9 @@
 import UIKit
 
 class NewHistoryTableViewController: UITableViewController {
-
+    override var preferredStatusBarStyle: UIStatusBarStyle {
+        return .lightContent
+    }
     var history: [Dice] = []
     
     override func viewDidAppear(_ animated: Bool) {

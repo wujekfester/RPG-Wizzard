@@ -11,7 +11,9 @@ import UIKit
 class LSAnimViewController: UIViewController {
 
     @IBOutlet var imageView: UIImageView!
-    
+    override var preferredStatusBarStyle: UIStatusBarStyle {
+        return .lightContent
+    }
     var launchDice: [UIImage] = []
     
     

@@ -9,7 +9,9 @@
 import UIKit
 
 class DicesViewController: UIViewController{
-    
+    override var preferredStatusBarStyle: UIStatusBarStyle {
+        return .lightContent
+    }
     @IBOutlet weak var formatSwitch: UISwitch!
     @IBOutlet weak var dicesCountLabel: UILabel!
     @IBOutlet weak var dicesCountSlider: UISlider!
