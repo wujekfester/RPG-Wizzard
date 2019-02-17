@@ -9,10 +9,10 @@
 import Foundation
 
 
-class NewHistory {
+class History {
     private var diceList : [Dice] = []
     
-    static let sI = NewHistory()
+    static let sI = History()
     
     func addToHistory(dice: Dice){
         self.diceList.insert(dice, at: 0)

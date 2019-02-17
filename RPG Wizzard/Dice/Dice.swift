@@ -60,8 +60,6 @@ class Dice {
     }
     
     func gSumResult() -> String{
-//        return self.sumResult as! String
-        return "chuj"
+        return String(self.sumResult)
     }
-    
 }

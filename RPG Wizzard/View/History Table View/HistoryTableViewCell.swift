@@ -8,7 +8,7 @@
 
 import UIKit
 
-class NewHistoryTableViewCell: UITableViewCell {
+class HistoryTableViewCell: UITableViewCell {
 
     @IBOutlet weak var diceImage: UIImageView!
     @IBOutlet weak var resultLabel: UILabel!

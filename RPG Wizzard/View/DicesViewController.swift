@@ -31,7 +31,7 @@ class DicesViewController: UIViewController{
     @IBAction func rollDice(_ sender: UIButton){
         let dice = Dice(sides: sender.tag, amount: Int(dicesCountSlider.value))
         dice.RollDice()
-        NewHistory.sI.addToHistory(dice: dice)
+        History.sI.addToHistory(dice: dice)
         self.displayResult()
     }
     
@@ -45,7 +45,7 @@ class DicesViewController: UIViewController{
     
     
     func displayResult(){
-        let rollHistory = NewHistory.sI
+        let rollHistory = History.sI
         if formatSwitch.isOn{
             resultLabel.text = rollHistory.lastRoll()
         }else{
