@@ -163,17 +163,6 @@
                                 <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <switch opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" contentHorizontalAlignment="center" contentVerticalAlignment="center" on="YES" translatesAutoresizingMaskIntoConstraints="NO" id="QMR-Xc-tku">
-                                <rect key="frame" x="298" y="569" width="49" height="31"/>
-                                <constraints>
-                                    <constraint firstAttribute="height" constant="31" id="4gG-Kf-d4P"/>
-                                    <constraint firstAttribute="width" constant="47" id="6PS-a9-ed7"/>
-                                </constraints>
-                                <color key="onTintColor" red="0.4515298458" green="0.61535084429999998" blue="0.77462523019999996" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                <connections>
-                                    <action selector="valueChanged:" destination="9pv-A4-QxB" eventType="valueChanged" id="EMh-Ng-aKm"/>
-                                </connections>
-                            </switch>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         <constraints>
@@ -181,10 +170,8 @@
                             <constraint firstItem="zEL-GJ-xe4" firstAttribute="leading" secondItem="HWo-CM-cJ7" secondAttribute="leading" constant="30" id="72j-aN-mxU"/>
                             <constraint firstItem="SjP-nT-b7F" firstAttribute="leading" secondItem="HWo-CM-cJ7" secondAttribute="leading" constant="16" id="EtI-bc-5Ui"/>
                             <constraint firstItem="5VC-eq-kqX" firstAttribute="top" secondItem="ma2-EI-kzH" secondAttribute="top" id="Fn2-Mu-2hJ"/>
-                            <constraint firstItem="HWo-CM-cJ7" firstAttribute="trailing" secondItem="QMR-Xc-tku" secondAttribute="trailing" constant="30" id="Le0-YO-W0o"/>
                             <constraint firstAttribute="bottom" secondItem="5VC-eq-kqX" secondAttribute="bottom" id="Lnd-Nc-uQ2"/>
                             <constraint firstItem="q8H-Wd-rMj" firstAttribute="top" secondItem="HWo-CM-cJ7" secondAttribute="top" id="NPg-zj-bZE"/>
-                            <constraint firstItem="QMR-Xc-tku" firstAttribute="top" secondItem="zEL-GJ-xe4" secondAttribute="bottom" constant="30" id="f0S-h4-pvK"/>
                             <constraint firstItem="4cn-RJ-2Ni" firstAttribute="top" secondItem="SjP-nT-b7F" secondAttribute="bottom" constant="79" id="g0j-0v-s0r"/>
                             <constraint firstItem="SjP-nT-b7F" firstAttribute="top" secondItem="q8H-Wd-rMj" secondAttribute="bottom" constant="8" id="poI-su-YP5"/>
                             <constraint firstItem="q8H-Wd-rMj" firstAttribute="leading" secondItem="ma2-EI-kzH" secondAttribute="leadingMargin" id="tmw-OC-dHM"/>
@@ -201,7 +188,6 @@
                     <connections>
                         <outlet property="dicesCountLabel" destination="4cn-RJ-2Ni" id="Fuk-0f-yJ3"/>
                         <outlet property="dicesCountSlider" destination="zEL-GJ-xe4" id="pNI-jj-NM9"/>
-                        <outlet property="formatSwitch" destination="QMR-Xc-tku" id="aRR-F3-ojg"/>
                         <outlet property="resultLabel" destination="q8H-Wd-rMj" id="w63-i6-4ih"/>
                     </connections>
                 </viewController>
@@ -244,7 +230,7 @@
                                     <rect key="frame" x="0.0" y="0.0" width="375" height="89.5"/>
                                     <autoresizingMask key="autoresizingMask"/>
                                     <subviews>
-                                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="wf1-QN-Wbj">
+                                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="wf1-QN-Wbj">
                                             <rect key="frame" x="92" y="11" width="267" height="44"/>
                                             <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                             <fontDescription key="fontDescription" type="system" pointSize="17"/>
@@ -288,15 +274,15 @@
         </scene>
     </scenes>
     <resources>
-        <image name="DicesTabIcon" width="31" height="31"/>
+        <image name="DicesTabIcon" width="62" height="62"/>
         <image name="customDice" width="912" height="1039"/>
         <image name="d10" width="500" height="500"/>
-        <image name="d100" width="500" height="500"/>
-        <image name="d12" width="500" height="500"/>
-        <image name="d20" width="500" height="500"/>
-        <image name="d4" width="500" height="500"/>
-        <image name="d6" width="500" height="500"/>
-        <image name="d8" width="500" height="500"/>
+        <image name="d100" width="120" height="120"/>
+        <image name="d12" width="120" height="120"/>
+        <image name="d20" width="120" height="120"/>
+        <image name="d4" width="120" height="120"/>
+        <image name="d6" width="120" height="120"/>
+        <image name="d8" width="120" height="120"/>
         <image name="load10.png" width="377" height="669"/>
     </resources>
     <color key="tintColor" red="0.37549585099999999" green="0.50717937950000003" blue="0.63122421500000003" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>

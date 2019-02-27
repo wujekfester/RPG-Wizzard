@@ -9,19 +9,21 @@
 import UIKit
 
 class DicesViewController: UIViewController{
+    
     override var preferredStatusBarStyle: UIStatusBarStyle {
         return .lightContent
     }
-    @IBOutlet weak var formatSwitch: UISwitch!
+    
     @IBOutlet weak var dicesCountLabel: UILabel!
     @IBOutlet weak var dicesCountSlider: UISlider!
     @IBOutlet weak var resultLabel: UILabel!
     let diceCreator = UIView()
+    var displayMode: Bool = true
     
     override func viewDidLoad() {
         super.viewDidLoad()
+        prepTapGesture()
         dicesCountSlider.setValue(1.0, animated: false)
-        formatSwitch.isEnabled = false
     }
 
     @IBAction func customDice(_ sender: UIButton) {
@@ -39,19 +41,15 @@ class DicesViewController: UIViewController{
         dicesCountLabel.text = String(Int(dicesCountSlider.value))
     }
     
-    @IBAction func valueChanged(_ sender: UISwitch) {
-        displayResult()
-    }
     
     
     func displayResult(){
         let rollHistory = History.sI
-        if formatSwitch.isOn{
+        if (displayMode == true){
             resultLabel.text = rollHistory.lastRoll()
         }else{
             resultLabel.text = rollHistory.lastRollSum()
         }
-        formatSwitch.isEnabled = true
     }
     
     func customDiceCreator(){
@@ -76,10 +74,22 @@ class DicesViewController: UIViewController{
             
             let dice = Dice(sides: diceSize, amount: amount)
             dice.RollDice()
-
+            History.sI.addToHistory(dice: dice)
             self.displayResult()
         }))
         present(alert, animated: true, completion: nil)
+    }
+    
+    func prepTapGesture(){
+        let tapGesture = UITapGestureRecognizer(target: self, action: #selector(DicesViewController.tapFunction(sender:)))
+        tapGesture.numberOfTapsRequired = 1
+        resultLabel.addGestureRecognizer(tapGesture)
+        resultLabel.isUserInteractionEnabled = true
+    }
+    
+    @objc func tapFunction(sender: UITapGestureRecognizer){
+        displayMode.toggle()
+        displayResult()
     }
 }
 

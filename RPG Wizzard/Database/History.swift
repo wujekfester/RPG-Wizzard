@@ -10,7 +10,7 @@ import Foundation
 
 
 class History {
-    private var diceList : [Dice] = []
+    fileprivate var diceList : [Dice] = []
     
     static let sI = History()
     
