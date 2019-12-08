@@ -22,10 +22,6 @@ class History {
         return diceList
     }
     
-    func lastRoll() -> Int{
-        return 0
-    }
-    
     func lastRoll() -> String {
         var tempString: String = ""
         let tempArray: [Int] = diceList[0].gResult()

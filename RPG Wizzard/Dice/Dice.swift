@@ -19,11 +19,17 @@ class Dice {
         }
     }
 
-    init(sides: Int, amount: Int){
+    init(sides: Int, amount: Int, imageTag: Int...){
         self.sides = sides
         self.amount = amount
-        self.dImage = "d\(sides)"
+        if imageTag.contains(101) {
+            self.dImage = "d101"
+        } else {
+            self.dImage = "d\(sides)"
+        }
+        
     }
+    //    " to jest przykladowy string \(sides)"
     
     func RollDice(){
         for _ in 0..<self.amount {

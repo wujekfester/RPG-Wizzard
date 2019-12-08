@@ -134,15 +134,15 @@
                                                     <action selector="rollDice:" destination="9pv-A4-QxB" eventType="touchUpInside" id="C4X-Xw-gss"/>
                                                 </connections>
                                             </button>
-                                            <button opaque="NO" alpha="0.75" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="E8o-hr-USp">
+                                            <button opaque="NO" alpha="0.75" tag="101" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="E8o-hr-USp">
                                                 <rect key="frame" x="117" y="0.0" width="109" height="109"/>
                                                 <constraints>
                                                     <constraint firstAttribute="height" constant="109" id="H9Q-Wh-Buv"/>
                                                     <constraint firstAttribute="width" constant="109" id="Mxy-fN-GPZ"/>
                                                 </constraints>
-                                                <state key="normal" title="Button" image="customDice"/>
+                                                <state key="normal" title="Button" image="d101"/>
                                                 <connections>
-                                                    <action selector="customDice:" destination="9pv-A4-QxB" eventType="touchUpInside" id="nAs-YO-9do"/>
+                                                    <action selector="rollDice:" destination="9pv-A4-QxB" eventType="touchUpInside" id="rEH-yg-xZo"/>
                                                 </connections>
                                             </button>
                                         </subviews>
@@ -214,7 +214,7 @@
             </objects>
             <point key="canvasLocation" x="-398" y="38"/>
         </scene>
-        <!--Item-->
+        <!--History Table View Controller-->
         <scene sceneID="N8L-FZ-ct9">
             <objects>
                 <tableViewController id="B7q-2o-HYn" customClass="HistoryTableViewController" customModule="RPG_Wizzard" customModuleProvider="target" sceneMemberID="viewController">
@@ -263,7 +263,7 @@
                             <outlet property="delegate" destination="B7q-2o-HYn" id="C6U-Zv-VWZ"/>
                         </connections>
                     </tableView>
-                    <tabBarItem key="tabBarItem" title="Item" id="vME-iU-t1I"/>
+                    <tabBarItem key="tabBarItem" systemItem="history" id="vME-iU-t1I"/>
                     <connections>
                         <outlet property="tableView" destination="n1D-gC-uln" id="Mn3-TA-qq4"/>
                     </connections>
@@ -275,9 +275,9 @@
     </scenes>
     <resources>
         <image name="DicesTabIcon" width="62" height="62"/>
-        <image name="customDice" width="912" height="1039"/>
         <image name="d10" width="500" height="500"/>
         <image name="d100" width="120" height="120"/>
+        <image name="d101" width="912" height="1039"/>
         <image name="d12" width="120" height="120"/>
         <image name="d20" width="120" height="120"/>
         <image name="d4" width="120" height="120"/>

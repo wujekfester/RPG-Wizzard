@@ -25,16 +25,17 @@ class DicesViewController: UIViewController{
         prepTapGesture()
         dicesCountSlider.setValue(1.0, animated: false)
     }
-
-    @IBAction func customDice(_ sender: UIButton) {
-        customDiceCreator()
-    }
     
     @IBAction func rollDice(_ sender: UIButton){
-        let dice = Dice(sides: sender.tag, amount: Int(dicesCountSlider.value))
-        dice.RollDice()
-        History.sI.addToHistory(dice: dice)
-        self.displayResult()
+        if (sender.tag != 101) {
+            let dice = Dice(sides: sender.tag, amount: Int(dicesCountSlider.value))
+            dice.RollDice()
+            History.sI.addToHistory(dice: dice)
+            self.displayResult()
+        } else {
+            customDiceCreator()
+        }
+        
     }
     
     @IBAction func dicesCount(_ sender: UISlider) {
@@ -72,7 +73,7 @@ class DicesViewController: UIViewController{
                 return
             }
             
-            let dice = Dice(sides: diceSize, amount: amount)
+            let dice = Dice(sides: diceSize, amount: amount, imageTag: 101)
             dice.RollDice()
             History.sI.addToHistory(dice: dice)
             self.displayResult()
@@ -92,5 +93,4 @@ class DicesViewController: UIViewController{
         displayResult()
     }
 }
-
 
