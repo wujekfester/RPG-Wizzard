@@ -12,12 +12,6 @@ class Dice {
     fileprivate var result: [Int] = []
     fileprivate var sumResult: Int = 0
     fileprivate var dImage: String
-    
-    fileprivate func resultAdder(){
-        for value in result{
-            sumResult += value
-        }
-    }
 
     init(sides: Int, amount: Int, imageTag: Int...){
         self.sides = sides
@@ -27,14 +21,12 @@ class Dice {
         } else {
             self.dImage = "d\(sides)"
         }
-        
     }
-    //    " to jest przykladowy string \(sides)"
     
     func RollDice(){
         for _ in 0..<self.amount {
             result.insert(Int.random(in: 1...self.sides), at: 0)
-            resultAdder()
+            sumResult += result[0]
         }
     }
     
@@ -55,14 +47,13 @@ class Dice {
     }
     
     func gResult() -> String{
-        var tempString: String = ""
+        var resultString: String = ""
         for result in result{
-            tempString += "\(result) "
+            resultString += "\(result) "
         }
         // usuwanie ostatniej spacji w stringu
-        tempString.remove(at: tempString.index(before: tempString.endIndex))
-        return tempString
-    
+        resultString.removeLast()
+        return resultString
     }
     
     func gSumResult() -> String{

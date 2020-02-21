@@ -23,15 +23,8 @@ class History {
     }
     
     func lastRoll() -> String {
-        var tempString: String = ""
-        let tempArray: [Int] = diceList[0].gResult()
-        for value in tempArray{
-                tempString += "\(value) "
-            }
-            // usuwanie ostatniej spacji w stringu
-            tempString.remove(at: tempString.index(before: tempString.endIndex))
-            return tempString
-        }
+        return diceList[0].gResult()
+    }
     
     func lastRollSum() -> String{
         return diceList[0].gSumResult()

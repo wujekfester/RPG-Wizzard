@@ -52,7 +52,7 @@ class HistoryTableViewController: UITableViewController {
         }
         cell.diceImage.image = UIImage(named: history[indexPath.row].gImage())
         cell.diceTypeLabel.text = "\(history[indexPath.row].gAmount()) x d\(history[indexPath.row].gSides())"
-        cell.resultLabel.text = history[indexPath.row].gResult()
+        cell.resultLabel.text = "\(history[indexPath.row].gResult())"
 
         return cell
     }

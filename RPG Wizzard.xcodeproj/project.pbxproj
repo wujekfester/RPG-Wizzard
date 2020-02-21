@@ -7,7 +7,6 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		5EF8F3EB2223D11400542B4D /* Character.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5EF8F3EA2223D11400542B4D /* Character.swift */; };
 		91446F2521FFD3F6001B076A /* History.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91446F2421FFD3F6001B076A /* History.swift */; };
 		914743E2221183DA006E56E5 /* HistoryTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 914743E1221183DA006E56E5 /* HistoryTableViewController.swift */; };
 		914743E42211869A006E56E5 /* HistoryTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 914743E32211869A006E56E5 /* HistoryTableViewCell.swift */; };
@@ -45,7 +44,6 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
-		5EF8F3EA2223D11400542B4D /* Character.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Character.swift; sourceTree = "<group>"; };
 		91446F2421FFD3F6001B076A /* History.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = History.swift; sourceTree = "<group>"; };
 		914743E1221183DA006E56E5 /* HistoryTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HistoryTableViewController.swift; sourceTree = "<group>"; };
 		914743E32211869A006E56E5 /* HistoryTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HistoryTableViewCell.swift; sourceTree = "<group>"; };
@@ -138,7 +136,6 @@
 				9139570221E2C70A0016F6FA /* Database */,
 				9139570321E2C7260016F6FA /* Dice */,
 				91A4A5FC21E2AC9800861E74 /* View */,
-				5EF8F3EA2223D11400542B4D /* Character.swift */,
 			);
 			path = "RPG Wizzard";
 			sourceTree = "<group>";
@@ -213,6 +210,7 @@
 			knownRegions = (
 				en,
 				Base,
+				pl,
 			);
 			mainGroup = 917A431521B87AA200FB7F81;
 			productRefGroup = 917A431F21B87AA200FB7F81 /* Products */;
@@ -260,7 +258,6 @@
 				9167A48D21DD0B6100D33413 /* Dice.swift in Sources */,
 				917A432421B87AA200FB7F81 /* DicesViewController.swift in Sources */,
 				91446F2521FFD3F6001B076A /* History.swift in Sources */,
-				5EF8F3EB2223D11400542B4D /* Character.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
