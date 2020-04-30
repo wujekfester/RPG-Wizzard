@@ -3,23 +3,23 @@ RPG Dice Roller for iOS. (Swift 4, UIKit, iPhone 6s, 7, 8)
 
 Prosta aplikacja, która ma zastąpić fizyczne wielościenne kości do gier RPG. 
 
-![ScreenShot](https://github.com/wujekfester/RPG-Wizzard/blob/master/main.png)
+![ScreenShot](https://github.com/wujekfester/RPG-Wizzard/blob/master/main.png | width=100)
 
 ## Losowanie i wyniki
 
 Aplikacja pozwala na wylosowanie wielu kości na raz. Ponadto, tapnięcie na tekst z wylosowanymi liczbami zamieni wynik na sumę wszystkich wyrzuconych kości. 
 
-![ScreenShot](https://github.com/wujekfester/RPG-Wizzard/blob/master/multipleMerge.png)
-![ScreenShot](https://github.com/wujekfester/RPG-Wizzard/blob/master/multiple.png)
+![ScreenShot](https://github.com/wujekfester/RPG-Wizzard/blob/master/multipleMerge.png | width=100)
+![ScreenShot](https://github.com/wujekfester/RPG-Wizzard/blob/master/multiple.png | width=100) 
 
 ## Niestandardowe kości
 
 Stwórz własne kości! Wystarczy wybrać ilość ścianek i ilość kości do rzutu.
 
-![ScreenShot](https://github.com/wujekfester/RPG-Wizzard/blob/master/customDice.png)
+![ScreenShot](https://github.com/wujekfester/RPG-Wizzard/blob/master/customDice.png | width=100)
 
 ## Wszystko pod kontrolą
 
 Historia rzuconych kości pozwoli na kontrolę gry i rozwiązywanie niepewności graczy ;) Koniec z kłótniami o wynik rzutu!
 
-![ScreenShot](https://github.com/wujekfester/RPG-Wizzard/blob/master/history.png)
+![ScreenShot](https://github.com/wujekfester/RPG-Wizzard/blob/master/history.png | width=100)
