@@ -9,7 +9,7 @@ Prosta aplikacja, która ma zastąpić fizyczne wielościenne kości do gier RPG
 
 Aplikacja pozwala na wylosowanie wielu kości na raz. Ponadto, tapnięcie na tekst z wylosowanymi liczbami zamieni wynik na sumę wszystkich wyrzuconych kości. 
 
-![ScreenShot](https://github.com/wujekfester/RPG-Wizzard/blob/master/multipleMerge.png)
+![](https://github.com/wujekfester/RPG-Wizzard/blob/master/multipleMerge.png | width=100)
 ![ScreenShot](https://github.com/wujekfester/RPG-Wizzard/blob/master/multiple.png) 
 
 ## Niestandardowe kości
