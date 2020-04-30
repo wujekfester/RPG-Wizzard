@@ -3,7 +3,7 @@ RPG Dice Roller for iOS. (Swift 4, UIKit, iPhone 6s, 7, 8)
 
 Prosta aplikacja, która ma zastąpić fizyczne wielościenne kości do gier RPG. 
 
-![ScreenShot](https://github.com/wujekfester/RPG-Wizzard/blob/master/Screenshots/main.png?v=4&s=200)
+![ScreenShot](https://github.com/wujekfester/RPG-Wizzard/blob/master/Screenshots/main.png?v=4&s=100)
 
 ## Losowanie i wyniki
 
